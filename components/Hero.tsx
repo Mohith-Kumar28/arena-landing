@@ -8,8 +8,8 @@ export default function Hero() {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-purple-900/20 blur-[120px] rounded-full pointer-events-none z-0"></div>
 
       {/* Text Content */}
-      <div className="z-10 flex flex-col items-start max-w-xl">
-        <h1 className="text-6xl md:text-[100px] leading-[0.9] mb-6 font-bebas text-white">
+      <div className="z-10 flex flex-col items-star pt max-w-xl">
+        <h1 className="text-6xl md:text-[100px] leading-[0.9] mb-6 font-bebas text-text-main">
           YOUR <br />
           GOD’S EYE VIEW
         </h1>

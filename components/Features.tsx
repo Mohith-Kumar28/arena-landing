@@ -1,4 +1,3 @@
-import { ChevronsRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Features() {
@@ -6,24 +5,24 @@ export default function Features() {
     <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-24 lg:px-32 py-24 bg-background-main">
       {/* Text Content */}
       <div className="w-full md:w-1/2 mb-12 md:mb-0">
-        <h2 className="text-5xl md:text-7xl font-bebas mb-8 text-white">GOD’S EYE VIEW</h2>
+        <h2 className="text-5xl md:text-7xl font-bebas mb-8 text-text-main">GOD’S EYE VIEW</h2>
         
-        <div className="space-y-4 font-bebas text-2xl md:text-3xl tracking-wide">
-          <div className="flex items-center gap-3 cursor-default">
-             <ChevronsRight className="text-white w-8 h-8" />
-             <span className="text-white">LIVE <span className="text-feature-1">X, Y</span> CO-ORDINATES</span>
+        <div className="space-y-2 font-bebas text-2xl md:text-3xl tracking-wide">
+          <div className="flex items-center gap-3 ">
+             <Image src="/double-arrow-right.svg" alt="arrow" width={46} height={46} className="size-10" />
+             <span className="text-text-main"> <span className="text-feature-1"> LIVE X, Y</span> CO-ORDINATES</span>
           </div>
-          <div className="flex items-center gap-3 cursor-default">
-             <ChevronsRight className="text-white w-8 h-8" />
-             <span className="text-white">LIVE <span className="text-feature-2">LINE/LENGTH</span> MAP</span>
+          <div className="flex items-center gap-3 ">
+             <Image src="/double-arrow-right.svg" alt="arrow" width={46} height={46} className="size-10" />
+             <span className="text-text-main">LIVE <span className="text-feature-2">LINE/LENGTH</span> MAP</span>
           </div>
-           <div className="flex items-center gap-3 cursor-default">
-             <ChevronsRight className="text-white w-8 h-8" />
-             <span className="text-white">LIVE <span className="text-feature-3">WAGON WHEEL</span></span>
+           <div className="flex items-center gap-3 ">
+             <Image src="/double-arrow-right.svg" alt="arrow" width={46} height={46} className="size-10" />
+             <span className="text-text-main">LIVE <span className="text-feature-3">WAGON WHEEL</span></span>
           </div>
-           <div className="flex items-center gap-3 cursor-default">
-             <ChevronsRight className="text-white w-8 h-8" />
-             <span className="text-white">LIVE <span className="text-feature-4">ARENA METRICS</span></span>
+           <div className="flex items-center gap-3 ">
+             <Image src="/double-arrow-right.svg" alt="arrow" width={46} height={46} className="size-10" />
+             <span className="text-text-main">LIVE <span className="text-feature-4">ARENA METRICS</span></span>
           </div>
         </div>
         

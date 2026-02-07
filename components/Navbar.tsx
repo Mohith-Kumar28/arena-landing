@@ -4,7 +4,7 @@ import { LogOut } from "lucide-react"; // Placeholder icon if needed
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 py-8 px-8 md:px-24 lg:px-32 flex items-center justify-between mix-blend-difference text-white">
+    <nav className="fixed top-0 left-0 w-full z-50 py-8 px-8 md:px-24 lg:px-32 flex items-center justify-between mix-blend-difference text-text-main">
       <div className="flex items-center gap-2">
         {/* Logo */}
         <div className="relative size-36">

@@ -10,16 +10,22 @@
   --phone-screen-start: #1a1a2e;
   --phone-screen-end: #0f0f1a;
   --cube-shadow: #2e1065;
-  --feature-1: #818cf8; /* Indigo */
-  --feature-2: #d946ef; /* Fuchsia */
-  --feature-3: #38bdf8; /* Sky */
-  --feature-4: #ec4899; /* Pink */
+  --feature-1: #7A859E; /* Muted Blue-Grey */
+  --feature-2: #C061CB; /* Orchid Purple */
+  --feature-3: #5FB4F5; /* Sky Blue */
+  --feature-4: #D665A8; /* Pink */
+  --input-bg: #161b22;
+  --input-border: #30363d;
+  --primary-blue: #38bdf8;
+  --accent-purple: #a855f7;
+  --text-main: #F2F2F2;
   --color-foreground: var(--foreground);
   --color-accent-blue: var(--accent-blue);
   --color-accent-purple: var(--accent-purple);
   --color-primary-blue: var(--primary-blue);
   --color-input-bg: var(--input-bg);
   --color-input-border: var(--input-border);
+  --color-text-main: var(--text-main);
   --color-cube-light: var(--cube-light);
   --color-cube-dark: var(--cube-dark);
   --color-phone-border: var(--phone-border);
@@ -44,6 +50,7 @@
   --color-primary-blue: var(--primary-blue);
   --color-input-bg: var(--input-bg);
   --color-input-border: var(--input-border);
+  --color-text-main: var(--text-main);
   --color-cube-light: var(--cube-light);
   --color-cube-dark: var(--cube-dark);
   --color-phone-border: var(--phone-border);

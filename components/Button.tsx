@@ -15,12 +15,12 @@ export default function Button({
   ...props 
 }: ButtonProps) {
   
-  const baseStyles = "px-8 py-3 rounded-full text-sm font-bold tracking-widest uppercase transition-colors duration-200 outline-none";
+  const baseStyles = "w-92 py-2 rounded-[20px] text-[20px] font-bebas tracking-wider uppercase transition-all duration-300 outline-none relative flex items-center justify-center";
   
   const variants = {
-    primary: "border border-primary-blue text-white hover:bg-primary-blue/10",
-    secondary: "bg-white text-black hover:bg-gray-100", // Placeholder for potential secondary style
-    outline: "border border-white/20 text-white hover:bg-white/10"
+    primary: "bg-black border border-l-[1px] border-t-[1px] border-r-[3px] border-b-[3px] border-primary-blue text-white shadow-[2px_2px_10px_rgba(56,189,248,0.2)] hover:shadow-[2px_2px_15px_rgba(56,189,248,0.4)] active:scale-95",
+    secondary: "bg-white text-black hover:bg-gray-100", 
+    outline: "border border-white/20 text-text-main hover:bg-white/10"
   };
 
   return (

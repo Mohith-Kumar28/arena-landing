@@ -8,48 +8,48 @@ export default function Contact() {
 
   return (
     <section className="py-24 px-8 md:px-24 lg:px-32 bg-background-main relative overflow-hidden">
-        <h2 className="text-5xl md:text-6xl font-bebas mb-12 text-white uppercase">Contact Us</h2>
+        <h2 className="text-5xl md:text-6xl font-bebas mb-12 text-text-main uppercase">Contact Us</h2>
         
         <form className="max-w-2xl space-y-8 relative z-10 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="space-y-3">
-              <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Name*</label>
-              <input type="text" placeholder="Your Name" className="w-full bg-input-bg border border-input-border rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-600" />
+            <div className="space-y-2">
+              <label className="text-sm font-semibold text-text-main">Name*</label>
+              <input type="text" placeholder="Your Name" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
-             <div className="space-y-3">
-              <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Email ID*</label>
-              <input type="email" placeholder="Your Email ID" className="w-full bg-input-bg border border-input-border rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-600" />
+             <div className="space-y-2">
+              <label className="text-sm font-semibold text-text-main">Email ID*</label>
+              <input type="email" placeholder="Your Email ID" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
-             <div className="space-y-3">
-              <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Mobile*</label>
-              <input type="text" placeholder="Your Mobile Number" className="w-full bg-input-bg border border-input-border rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-600" />
+             <div className="space-y-2">
+              <label className="text-sm font-semibold text-text-main">Mobile*</label>
+              <input type="text" placeholder="Your Mobile Number" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
-             <div className="space-y-3">
-              <label className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Company Name*</label>
-              <input type="text" placeholder="Your Company Name" className="w-full bg-input-bg border border-input-border rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-600" />
+             <div className="space-y-2">
+              <label className="text-sm font-semibold text-text-main">Company Name*</label>
+              <input type="text" placeholder="Your Company Name" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
           </div>
 
-          <div className="flex items-center gap-2 py-2">
+          <div className="flex items-center gap-4 py-4">
              <button 
                 type="button"
                 onClick={() => setType("business")}
-                className={`px-8 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest transition-all ${type === 'business' ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg' : 'bg-input-bg text-gray-500 border border-input-border hover:text-white'}`}
+                className={`px-8 py-2 rounded-full text-sm font-manrope font-semibold transition-all ${type === 'business' ? 'bg-gradient-to-r from-[#5FB4F5] to-[#C061CB] text-white shadow-lg border-none' : 'bg-[#1A1F2E] text-gray-400 border border-gray-800 hover:text-text-main'}`}
              >
                Business
              </button>
               <button 
                 type="button"
                 onClick={() => setType("consumer")}
-                className={`px-8 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest transition-all ${type === 'consumer' ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg' : 'bg-input-bg text-gray-500 border border-input-border hover:text-white'}`}
+                className={`px-8 py-2 rounded-full text-sm font-manrope font-semibold transition-all ${type === 'consumer' ? 'bg-gradient-to-r from-[#5FB4F5] to-[#C061CB] text-white shadow-lg border-none' : 'bg-[#1A1F2E] text-gray-400 border border-gray-800 hover:text-text-main'}`}
              >
                Consumer
              </button>
           </div>
 
-          <div className="pt-4">
-            <Button type="submit">
-              Submit
+          <div className="pt-2">
+            <Button type="submit" className="w-48">
+              SUBMIT
             </Button>
           </div>
         </form>
