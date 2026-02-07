@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="z-10 flex flex-col items-center md:items-start max-w-xl text-center md:text-left mt-12 md:mt-0">
         <h1 className="leading-[0.9] mb-6 font-bebas text-text-main flex flex-col items-center md:items-start space-y-6 md:space-y-0">
           <span className="text-[66px] md:text-[100px]">YOUR</span>
-          <span className="text-[86px] md:text-[100px]">GOD’S EYE</span>
+          <span className="text-[86px] md:text-[100px]">GOD&apos;S EYE</span>
           <span className="text-[86px] md:text-[100px]">VIEW</span>
         </h1>
         <p className="text-gray-400 mb-10 font-manrope text-[24px] md:text-lg">See It All</p>
@@ -33,6 +33,14 @@ export default function Hero() {
               priority
             />
          </div>
+      </div>
+      
+      {/* Brand Logo - Top Left on Mobile, but part of Hero flow now if we remove navbar */}
+      <div className="absolute top-0 left-8 md:top-12 md:left-32 z-50">
+        <div className="relative size-40 flex items-center gap-2">
+            <Image src="/main-logo.svg" alt="Arena Logo" fill className="object-contain" />
+           
+        </div>
       </div>
       {/* Background Gradient/Glow */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-purple-900/20 blur-[100px] rounded-full pointer-events-none"></div>

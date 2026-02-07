@@ -7,8 +7,8 @@ export default function Contact() {
   const [type, setType] = useState<"business" | "consumer">("business");
 
   return (
-    <section className="py-24 px-8 md:px-24 lg:px-32 bg-background-main relative overflow-hidden flex flex-col items-center">
-        <h2 className="text-5xl md:text-6xl font-bebas mb-12 text-text-main uppercase text-center">Contact Us</h2>
+    <section className="py-24 px-8 md:px-24 lg:px-32 bg-background-main relative overflow-hidden flex flex-col items-center md:items-start">
+        <h2 className="text-5xl md:text-6xl font-bebas mb-12 text-text-main uppercase text-center md:text-left">Contact Us</h2>
         
         <form className="max-w-2xl space-y-8 relative z-10 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -30,7 +30,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex items-center gap-4 py-4 justify-center">
+          <div className="flex items-center gap-4 py-4 justify-center md:justify-start">
              <button 
                 type="button"
                 onClick={() => setType("business")}
@@ -47,7 +47,7 @@ export default function Contact() {
              </button>
           </div>
 
-          <div className="pt-2 flex justify-center">
+          <div className="pt-2 flex justify-center md:justify-start">
             <Button type="submit" className="w-48">
               SUBMIT
             </Button>

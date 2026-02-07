@@ -26,7 +26,7 @@ export default function Features() {
           </div>
         </div>
         
-        <p className="mt-8 text-gray-400 max-w-md font-manrope leading-relaxed text-left mx-auto md:mx-0">
+        <p className="mt-8 text-gray-400 max-w-md font-manrope leading-relaxed text-left mx-auto md:mx-0 text-[18px]">
           A field overview, is overlayed with a live line/length map & wagon wheel. When coupled with Arena Metrics users are afforded a God’s Eye View
         </p>
       </div>
