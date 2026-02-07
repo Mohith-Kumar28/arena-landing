@@ -14,19 +14,19 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-2">
               <label className="text-sm font-semibold text-text-main">Name*</label>
-              <input type="text" placeholder="Your Name" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
+              <input type="text" placeholder="Your Name" className="w-full bg-[#494C72]/[0.02] border border-[#494C72] rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
              <div className="space-y-2">
               <label className="text-sm font-semibold text-text-main">Email ID*</label>
-              <input type="email" placeholder="Your Email ID" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
+              <input type="email" placeholder="Your Email ID" className="w-full bg-[#494C72]/[0.02] border border-[#494C72] rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
              <div className="space-y-2">
               <label className="text-sm font-semibold text-text-main">Mobile*</label>
-              <input type="text" placeholder="Your Mobile Number" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
+              <input type="text" placeholder="Your Mobile Number" className="w-full bg-[#494C72]/[0.02] border border-[#494C72] rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
              <div className="space-y-2">
               <label className="text-sm font-semibold text-text-main">Company Name*</label>
-              <input type="text" placeholder="Your Company Name" className="w-full bg-[#1A1F2E] border border-gray-800 rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
+              <input type="text" placeholder="Your Company Name" className="w-full bg-[#494C72]/[0.02] border border-[#494C72] rounded-lg px-4 py-3.5 text-text-main focus:outline-none focus:border-primary-blue transition-colors placeholder:text-gray-500" />
             </div>
           </div>
 
@@ -34,14 +34,14 @@ export default function Contact() {
              <button 
                 type="button"
                 onClick={() => setType("business")}
-                className={`px-8 py-2 rounded-full text-sm font-manrope font-semibold transition-all ${type === 'business' ? 'bg-gradient-to-r from-[#5FB4F5] to-[#C061CB] text-white shadow-lg border-none' : 'bg-[#1A1F2E] text-gray-400 border border-gray-800 hover:text-text-main'}`}
+                className={`px-8 py-2 rounded-full text-sm font-manrope font-semibold transition-all ${type === 'business' ? 'bg-gradient-to-r from-[#5FB4F5] to-[#C061CB] text-text-main shadow-lg border-none' : 'bg-[#1A1F2E] text-gray-400 border border-gray-800 hover:text-text-main'}`}
              >
                Business
              </button>
               <button 
                 type="button"
                 onClick={() => setType("consumer")}
-                className={`px-8 py-2 rounded-full text-sm font-manrope font-semibold transition-all ${type === 'consumer' ? 'bg-gradient-to-r from-[#5FB4F5] to-[#C061CB] text-white shadow-lg border-none' : 'bg-[#1A1F2E] text-gray-400 border border-gray-800 hover:text-text-main'}`}
+                className={`px-8 py-2 rounded-full text-sm font-manrope font-semibold transition-all ${type === 'consumer' ? 'bg-gradient-to-r from-[#5FB4F5] to-[#C061CB] text-text-main shadow-lg border-none' : 'bg-[#1A1F2E] text-gray-400 border border-gray-800 hover:text-text-main'}`}
              >
                Consumer
              </button>
