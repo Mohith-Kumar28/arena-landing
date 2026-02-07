@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-main: #0D1117;
+  --background-secondary: #121821;
+  --cube-light: #D6E8FA;
+  --cube-dark: #60B2F5;
+  --phone-border: #333333;
+  --phone-notch: #1a1a1a;
+  --phone-screen-start: #1a1a2e;
+  --phone-screen-end: #0f0f1a;
+  --cube-shadow: #2e1065;
+  --feature-1: #818cf8; /* Indigo */
+  --feature-2: #d946ef; /* Fuchsia */
+  --feature-3: #38bdf8; /* Sky */
+  --feature-4: #ec4899; /* Pink */
+  --color-foreground: var(--foreground);
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-purple: var(--accent-purple);
+  --color-primary-blue: var(--primary-blue);
+  --color-input-bg: var(--input-bg);
+  --color-input-border: var(--input-border);
+  --color-cube-light: var(--cube-light);
+  --color-cube-dark: var(--cube-dark);
+  --color-phone-border: var(--phone-border);
+  --color-phone-notch: var(--phone-notch);
+  --color-phone-screen-start: var(--phone-screen-start);
+  --color-phone-screen-end: var(--phone-screen-end);
+  --font-bebas: var(--font-bebas);
+  --font-manrope: var(--font-manrope);
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-cube-shadow: var(--cube-shadow);
+  --color-feature-1: var(--feature-1);
+  --color-feature-2: var(--feature-2);
+  --color-feature-3: var(--feature-3);
+  --color-feature-4: var(--feature-4);
+  --color-background-main: var(--background-main);
+  --color-background-secondary: var(--background-secondary);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-purple: var(--accent-purple);
+  --color-primary-blue: var(--primary-blue);
+  --color-input-bg: var(--input-bg);
+  --color-input-border: var(--input-border);
+  --color-cube-light: var(--cube-light);
+  --color-cube-dark: var(--cube-dark);
+  --color-phone-border: var(--phone-border);
+  --color-phone-notch: var(--phone-notch);
+  --color-phone-screen-start: var(--phone-screen-start);
+  --color-phone-screen-end: var(--phone-screen-end);
+  --font-bebas: var(--font-bebas);
+  --font-manrope: var(--font-manrope);
 }
 
 body {
-  background: var(--background);
+  background: var(--background-main);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-manrope), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-bebas), sans-serif;
+  text-transform: uppercase;
 }
