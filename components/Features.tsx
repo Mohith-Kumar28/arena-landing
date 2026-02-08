@@ -27,7 +27,7 @@ export default function Features() {
         whileInView="show"
         viewport={{ once: true, amount: 0.3 }}
         variants={container}
-        className="w-full md:w-[45%] mb-12 md:mb-0 flex flex-col items-center md:items-start text-left mt-12 md:mt-0"
+        className="w-full md:w-[50%] mb-12 md:mb-0 flex flex-col items-center md:items-start text-left mt-12 md:mt-0"
       >
         <motion.h2 variants={item} className="text-5xl md:text-7xl font-bebas mb-8 text-text-main w-full text-center md:text-left">
           GOD’S EYE VIEW
@@ -86,18 +86,18 @@ export default function Features() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8, type: "spring" }}
-        className="w-full md:w-[55%] flex justify-center items-center relative"
+        className="w-full md:w-[65%] flex justify-center items-center relative"
       >
          <motion.div
             animate={{ y: [0, -20, 0] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-            className="relative z-10"
+            className="relative z-10 w-full"
          >
              <Image 
                src="/mockups.png" 
                alt="App Mockups" 
-               width={750} 
-               height={750} 
+               width={800} 
+               height={800} 
                className="w-full h-auto object-contain"
              />
          </motion.div>
