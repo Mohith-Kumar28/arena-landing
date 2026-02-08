@@ -26,8 +26,8 @@ export default function Footer() {
         <div className="md:col-span-2 md:col-start-7 flex flex-col gap-6 items-center md:items-end md:text-right">
              <h3 className="text-text-main font-bebas text-[24px] mb-2 tracking-wide">Arena</h3>
              <div className="flex flex-col gap-3">
-                <Link href="#" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">God&apos;s Eye View</Link>
-                <Link href="#" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Background</Link>
+                <a href="#features" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">God&apos;s Eye View</a>
+                <a href="#background" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Background</a>
              </div>
         </div>
 
@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="md:col-span-2 flex flex-col gap-6 items-center md:items-end md:text-right">
              <h3 className="text-text-main font-bebas text-[24px] mb-2 tracking-wide">Legal</h3>
              <div className="flex flex-col gap-3">
-                <Link href="#" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Contact Us</Link>
+                <a href="#contact" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Contact Us</a>
                 <Link href="#" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Privacy Policy</Link>
                 <Link href="#" className="text-gray-400 hover:text-text-main transition-colors font-manrope font-normal text-[20px]">License Agreement</Link>
              </div>

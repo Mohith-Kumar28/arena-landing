@@ -20,7 +20,7 @@ export default function Background() {
   };
 
   return (
-    <section className="py-24 px-8 md:px-24 lg:px-32 bg-background-secondary border-t border-white/5 overflow-hidden">
+    <section id="background" className="py-24 px-8 md:px-24 lg:px-32 bg-background-secondary border-t border-white/5 overflow-hidden">
       <motion.div 
         initial="hidden"
         whileInView="show"

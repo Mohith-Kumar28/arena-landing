@@ -20,7 +20,7 @@ export default function Features() {
   };
 
   return (
-    <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-8 md:px-24 lg:px-32 py-24 bg-background-main overflow-hidden">
+    <section id="features" className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-8 md:px-24 lg:px-32 py-24 bg-background-main overflow-hidden">
       {/* Text Content */}
       <motion.div 
         initial="hidden"

@@ -47,7 +47,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-gray-400 mb-10 font-manrope text-[24px] md:text-lg"
+          className="text-gray-400 mb-8 md:mb-20 font-manrope text-[24px] md:text-lg"
         >
           See It All
         </motion.p>
