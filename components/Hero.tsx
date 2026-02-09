@@ -72,7 +72,7 @@ export default function Hero() {
             className="relative w-[300px] h-[300px] md:w-[600px] md:h-[600px] flex items-center justify-center"
           >
             <Image 
-              src="/hero-logo.svg" 
+              src="/logo-final.gif" 
               alt="Arena Hero Logo" 
               width={600} 
               height={600} 
