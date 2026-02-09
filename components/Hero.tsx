@@ -16,13 +16,13 @@ export default function Hero() {
       />
 
       {/* Text Content */}
-      <div className="z-10 flex flex-col items-center md:items-start max-w-xl text-center md:text-left mt-12 md:mt-0">
-        <h1 className="leading-[0.9] mb-6 font-bebas text-text-main flex flex-col items-center md:items-start space-y-6 md:space-y-0">
+      <div className="z-10 flex flex-col items-center md:items-start max-w-xl text-center md:text-left mt-12 md:mt-44">
+        <h1 className="leading-[0.9] mb-6 font-bebas text-text-main flex flex-col items-center md:items-start space-y-6 md:space-y-6">
           <motion.span 
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-[66px] md:text-[100px]"
+            className="text-[66px]"
           >
             YOUR
           </motion.span>
@@ -30,24 +30,16 @@ export default function Hero() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-[86px] md:text-[100px]"
+            className="text-[86px]"
           >
-            GOD&apos;S EYE
-          </motion.span>
-          <motion.span 
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-[86px] md:text-[100px]"
-          >
-            VIEW
+            GOD&apos;S EYE VIEW
           </motion.span>
         </h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-gray-400 mb-8 md:mb-20 font-manrope text-[24px] md:text-lg"
+          className="text-gray-400 mb-8 md:mb-12 font-manrope text-[24px] md:text-lg"
         >
           See It All
         </motion.p>
