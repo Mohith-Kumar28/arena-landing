@@ -76,7 +76,7 @@ export default function Features() {
         </div>
         
         <motion.p variants={item} className="mt-8 text-text-main max-w-md font-manrope leading-relaxed text-left mx-auto md:mx-0 text-[18px]">
-          A field overview, is overlayed with a live line/length map & wagon wheel. When coupled with Arena Metrics users are afforded a God’s Eye View
+          A field overview, is overlayed with a live line/length map & wagon wheel. When coupled with Arena Metrics users are afforded a God&apos;s Eye View.
         </motion.p>
       </motion.div>
 

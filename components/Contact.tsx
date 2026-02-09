@@ -85,7 +85,7 @@ export default function Contact() {
            transition={{ duration: 0.8 }}
            className="w-full max-w-2xl"
         >
-          <h2 className="text-5xl md:text-6xl font-bebas mb-12 text-text-main uppercase text-center md:text-left">Contact Us</h2>
+          <h2 className="text-5xl md:text-6xl font-bebas mb-12 text-text-main uppercase text-center md:text-left">PRE-REGISTER</h2>
           
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-8 relative z-10 w-full">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

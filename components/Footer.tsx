@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
 
             </div>
-            <p className="text-text-main font-manrope text-sm ">© Copyright Arena 2026</p>
+            <p className="text-text-main font-manrope text-md hidden md:block md:-mt-6">© Copyright Arena 2026</p>
         </div>
 
         {/* Links Column 1: Arena */}
@@ -45,10 +45,14 @@ export default function Footer() {
         <div className="md:col-span-2 flex flex-col gap-6 items-center md:items-end md:text-right">
              <p className="text-text-main font-manrope font-semibold text-[24px] mb-2 tracking-wide">Legal</p>
              <div className="flex flex-col gap-3">
-                <a href="#contact" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Contact Us</a>
+                <a href="#contact" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">PRE-REGISTER</a>
                 <Link href="#" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Privacy Policy</Link>
                 <Link href="#" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">License Agreement</Link>
              </div>
+        </div>
+        {/* Mobile Copyright */}
+        <div className="md:hidden w-full text-center mt-4">
+            <p className="text-text-main font-manrope text-sm">© Copyright Arena 2026</p>
         </div>
       </div>
     </footer>

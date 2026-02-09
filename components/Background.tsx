@@ -37,7 +37,7 @@ export default function Background() {
         
         <motion.div variants={item} className="pt-8">
           <Button>
-            Contact Us
+            PRE-REGISTER
           </Button>
         </motion.div>
       </motion.div>
