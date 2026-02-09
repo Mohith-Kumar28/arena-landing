@@ -59,11 +59,17 @@
   --color-phone-screen-end: var(--phone-screen-end);
   --font-bebas: var(--font-bebas);
   --font-manrope: var(--font-manrope);
+
 }
 
 html, body {
   scroll-behavior: smooth !important;
 }
+
+@utility section-padding {
+  @apply px-8 md:px-32 lg:px-48;
+}
+
 
 body {
   background: var(--background-main);

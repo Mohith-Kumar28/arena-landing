@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-background-main py-52 px-8 md:px-24 lg:px-32 relative overflow-hidden border-t border-white/5">
+    <footer className="bg-background-main py-52 section-padding relative overflow-hidden border-t border-white/5">
       
       {/* Watermark - Fixed opacity and sizing to be visible */}
       <div className="absolute inset-0 z-0 top-32 opacity-100 pointer-events-none mix-blend-screen">

@@ -77,7 +77,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-24 px-8 md:px-24 lg:px-32 bg-background-main relative overflow-hidden flex flex-col items-center md:items-start">
+    <section id="contact" className="py-24 section-padding bg-background-main relative overflow-hidden flex flex-col items-center md:items-start">
         <motion.div
            initial={{ opacity: 0, y: 50 }}
            whileInView={{ opacity: 1, y: 0 }}

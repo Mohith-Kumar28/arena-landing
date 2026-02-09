@@ -20,14 +20,14 @@ export default function Features() {
   };
 
   return (
-    <section id="features" className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-8 md:px-24 lg:px-32 py-24 bg-background-main overflow-hidden">
+    <section id="features" className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between section-padding py-24 bg-background-main overflow-hidden">
       {/* Text Content */}
       <motion.div 
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.3 }}
         variants={container}
-        className="w-full md:w-[50%] mb-12 md:mb-0 flex flex-col items-center md:items-start text-left mt-12 md:mt-0"
+        className="w-full md:w-[50%] mb-12 md:pr-32 md:mb-0 flex flex-col items-center md:items-start text-left mt-12 md:mt-0"
       >
         <motion.h2 variants={item} className="text-5xl md:text-7xl font-bebas mb-8 text-text-main w-full text-center md:text-left">
           GOD’S EYE VIEW

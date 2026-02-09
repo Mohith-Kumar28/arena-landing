@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-8 md:px-24 lg:px-32 pt-32 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between section-padding pt-32 relative overflow-hidden">
       {/* Background Gradient/Glow - Centered */}
       <motion.div 
         initial={{ opacity: 0, scale: 0.8 }}
@@ -75,7 +75,7 @@ export default function Hero() {
       </div>
       
       {/* Brand Logo - Top Left on Mobile, but part of Hero flow now if we remove navbar */}
-      <div className="absolute top-0 left-8 md:top-12 md:left-32 z-50">
+      <div className="absolute top-0 left-8 md:top-12 md:left-46 z-50">
         <motion.div 
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
