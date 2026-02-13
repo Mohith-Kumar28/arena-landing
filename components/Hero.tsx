@@ -57,9 +57,11 @@ export default function Hero() {
            animate={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.8, delay: 1 }}
         >
-          <Button>
-            PRE-REGISTER
-          </Button>
+          <a href="#contact">
+            <Button >
+              PRE-REGISTER
+            </Button>
+          </a>
         </motion.div>
       </div>
 
