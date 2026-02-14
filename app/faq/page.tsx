@@ -61,7 +61,7 @@ export default function FAQ() {
         <div className="grid grid-cols-1 gap-8 md:gap-12 pb-20">
             {faqs.map((faq, index) => (
                 <div key={index} className="flex flex-col gap-3 group border-b border-white/5 pb-8 last:border-0 hover:border-white/10 transition-colors">
-                    <h2 className="text-2xl md:text-3xl font-bebas text-white tracking-wide group-hover:text-accent-blue transition-colors">
+                    <h2 className="text-2xl md:text-3xl font-bebas text-white tracking-wide group-hover:text-primary-blue transition-colors">
                         {faq.question}
                     </h2>
                     <p className="text-gray-400 font-manrope text-lg md:text-xl leading-relaxed max-w-4xl">
