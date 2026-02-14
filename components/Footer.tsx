@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="md:col-span-2 flex flex-col gap-6 items-center md:items-end md:text-right">
              <p className="text-text-main font-manrope font-semibold text-[24px] mb-2 tracking-wide">Legal</p>
              <div className="flex flex-col gap-3">
-                <a href="#contact" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">PRE-REGISTER</a>
+                <a href="#contact" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Pre-Register</a>
                 <Link href="#" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">Privacy Policy</Link>
                 <Link href="#" className="text-text-main hover:text-text-main transition-colors font-manrope font-normal text-[20px]">License Agreement</Link>
              </div>
