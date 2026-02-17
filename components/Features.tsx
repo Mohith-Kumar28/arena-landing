@@ -100,6 +100,16 @@ export default function Features() {
                height={800} 
                className="w-full h-auto object-contain"
              />
+             
+             {/* Pitch Animation Overlay */}
+             <div className="absolute top-[35%] left-[7%] w-[35%] h-[40%] z-20  rounded-full ">
+                <Image 
+                  src="/pitch-animation.gif" 
+                  alt="Pitch Animation" 
+                  fill 
+                  className="object-contain "
+                />
+             </div>
          </motion.div>
          {/* Glow behind phone */}
           <motion.div 
