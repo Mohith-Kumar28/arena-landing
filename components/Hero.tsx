@@ -76,7 +76,7 @@ export default function Hero() {
             <Image 
               src="/logo-final.gif" 
               alt="Arena Hero Logo" 
-              width={600} 
+              width={400} 
               height={600} 
               className="w-full h-full object-contain drop-shadow-2xl"
               priority
@@ -90,7 +90,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="relative size-40 flex items-center gap-2"
+          className="relative size-32 flex items-center gap-2"
         >
             <Image src="/main-logo.svg" alt="Arena Logo" fill className="object-contain" />
            
